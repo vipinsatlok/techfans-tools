@@ -1,0 +1,26 @@
+{
+  "name": "techfans-tools",
+  "version": "1.0.0",
+  "description": "Javascipt Tools",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipinsatlok/techfans-tools.git"
+  },
+  "keywords": ["Techfans Tools"],
+  "author": "Vipin Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipinsatlok/techfans-tools/issues"
+  },
+  "homepage": "https://github.com/vipinsatlok/techfans-tools#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}

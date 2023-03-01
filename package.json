@@ -12,7 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/vipinsatlok/techfans-tools.git"
   },
-  "keywords": ["Techfans Tools"],
+  "keywords": [
+    "Techfans Tools"
+  ],
   "author": "Vipin Kumar",
   "license": "ISC",
   "bugs": {
@@ -22,5 +24,10 @@
   "devDependencies": {
     "typescript": "^4.9.5"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "puppeteer": "^19.7.2"
+  }
 }

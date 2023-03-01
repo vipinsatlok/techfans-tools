@@ -1,9 +1,11 @@
-const fs = require('fs');
-const client = require('https');
+import * as https from "https"
+import * as fs from "fs"
 
 export function downloadImage(url: string, filepath: string) {
+
+    // return promiss
     return new Promise((resolve, reject) => {
-        client.get(url, (res: any) => {
+        https.get(url, (res: any) => {
             if (res.statusCode === 200) {
                 res.pipe(fs.createWriteStream(filepath))
                     .on('error', reject)
